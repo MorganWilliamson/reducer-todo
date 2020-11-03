@@ -16,7 +16,7 @@ const ToDo = () => {
     };
 
     return(
-        <>
+        <div className="form">
             <form onSubmit={handleSubmit}>
                 <h1>To-Do List:</h1>
 
@@ -39,7 +39,7 @@ const ToDo = () => {
                 ))}
             </ul>
             <button className="remove" onClick={() => dispatch({ type: "REMOVE_TASK", payload: state })}>Clear Completed Tasks</button>
-        </>
+        </div>
     )
 }
 

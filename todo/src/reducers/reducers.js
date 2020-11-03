@@ -1,8 +1,23 @@
 export const initialState = [
     {
-        item: 'Learn about reducers',
+        item: 'Do laundry',
         completed: false,
         id: 3892987589
+    },
+    {
+        item: 'Wash clothes',
+        completed: false,
+        id: 3892987584
+    },
+    {
+        item: 'Empty hamper into washing machine',
+        completed: false,
+        id: 3892987585
+    },
+    {
+        item: 'Dry clothes',
+        completed: false,
+        id: 3892987586
     },
 ];
 
@@ -12,7 +27,7 @@ export const reducer = (state, action) => {
             return[
                 ...state, 
                 {
-                    item: action.item,
+                    item: action.payload,
                     completed: false,
                     id: Date.now(),
                 },
