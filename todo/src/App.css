@@ -1,5 +1,8 @@
 .App {
   text-align: center; 
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
 }
 
 body{
@@ -8,10 +11,12 @@ body{
 
 .completed {
   text-decoration: line-through;
+  text-decoration-color: white;
 }
 
 .form {
-  max-width: 100%;
+  max-width: 100%;  
+  
 }
 
 .form button {
@@ -36,7 +41,7 @@ body{
   flex-wrap: wrap;
   padding: 2%;
   margin: 1%;
-  width: 45%;
+  width: 85%;
   border: 2px solid black;
   font-size: 1.5rem;
 }
