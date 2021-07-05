@@ -1,0 +1,56 @@
+.App {
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+body{
+  background-color: rgb(132, 202, 164);
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: white;
+}
+
+.form {
+  max-width: 100%;  
+  
+}
+
+.form button {
+  padding: 1%;
+  background: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  font-size: 1.2rem
+}
+
+.form button:hover {
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+.form li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2%;
+  margin: 1%;
+  width: 85%;
+  border: 2px solid black;
+  font-size: 1.5rem;
+}
+
+.form li:hover {
+  box-shadow: 2px 2px 5px black;
+}
+
+.form input{
+  margin: 2%;
+  font-size: 1.5rem;
+}
